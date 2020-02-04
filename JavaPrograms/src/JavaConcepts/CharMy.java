@@ -5,6 +5,8 @@ public class CharMy {
 	public static void main(String[] args) {
 		String a="Chennai";
 		
+		System.out.println("Store"+a);
+		
 		char []ch=a.toCharArray();
 		for(int i=0;i<a.length();i++)
 		{
